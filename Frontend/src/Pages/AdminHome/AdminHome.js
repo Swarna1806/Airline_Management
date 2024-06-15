@@ -22,7 +22,7 @@ const AllFlightsPage = () => {
   useEffect(() => {
     // Fetch all flights from the backend API
     axios
-     .get('https://airline-2-z147.onrender.com/api/flight/getAllflights', {
+     .get('https://https://airline-4.onrender.com/api/flight/getAllflights', {
         headers: {
           Authorization: token,
           'Content-Type': 'application/json',
