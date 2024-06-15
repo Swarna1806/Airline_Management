@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'eact';
+import React, { useState, useEffect } from 'react';
 import AdminFlightCard from "../../components/AdminFlightCard/AdminFlightCard"
 import axios from 'axios';
 import './AdminHome.css';
