@@ -233,7 +233,8 @@
         "directory": "types/node"
     },
     "scripts": {
-        "start": "node index.js"
+        "start": "node index.js",
+        "build": "npm i"
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
