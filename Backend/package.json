@@ -234,8 +234,7 @@
     },
     "scripts": {
         "start": "node index.js",
-        "build": "npm i"
-        "dev":"nodemon.js",
+        "build": "npm i",
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
