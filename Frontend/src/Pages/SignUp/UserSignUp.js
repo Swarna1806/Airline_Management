@@ -26,7 +26,7 @@ const UserSignUp = () => {
     try {
       // Send login data to the backend
       setLoading(true);
-      const response = await axios.post('https://airline-2-z147.onrender.com/api/user/signUp', {
+      const response = await axios.post('https://airline-4.onrender.com/api/user/signUp', {
         name: fullName,
         email: email,
         password: password,
