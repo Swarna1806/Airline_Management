@@ -235,6 +235,7 @@
     "scripts": {
         "start": "node index.js",
         "build": "npm i"
+        "dev":"nodemon.js",
     },
     "dependencies": {
         "bcryptjs": "^2.4.3",
