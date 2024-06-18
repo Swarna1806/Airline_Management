@@ -38,7 +38,7 @@ const AllFlightsPage = () => {
   const handleDeleteFlight = async (flightId) => {
     // Send DELETE request to the backend to delete the flight by its ID
     console.log("token:",token)
-    const response  = await axios.get(`https://airline-2-z147.onrender.com/api/flight/deleteflight/${flightId}`, {
+    const response  = await axios.get(`https://airline-4.onrender.com/api/flight/deleteflight/${flightId}`, {
         headers: {
           Authorization: token,
         },
@@ -50,7 +50,7 @@ const AllFlightsPage = () => {
   const handleFormSubmit = async (formData) => {
     try {
       // Send the new flight data to the backend
-      const response = await axios.post('https://airline-2-z147.onrender.com/api/flight/createflight', formData, {
+      const response = await axios.post('https://airline-4.onrender.com/api/flight/createflight', formData, {
         headers: {
           Authorization: token,
           'Content-Type': 'application/json',
